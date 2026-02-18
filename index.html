@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatter</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+            <h1>📝 Text Formatter</h1>
+
+           <textarea type="text" id="userText" name="user_name"></textarea>
+            <div class="buttons">
+
+                <button class="filter-button" onclick="question1()">UPPERCASE</button>
+                <button class="filter-button" onclick="question2()">lowercase</button>
+                <button class="filter-button" onclick="question3()">Capitalize Words</button>
+                <button class="filter-button" onclick="question4()">Remove extra spaces</button>
+                <button class="filter-button" onclick="question5()">replase word</button>
+                <button class="filter-button" onclick="question6()">Count Characters</button>
+            </div>
+
+        <div class="output">
+            <h1>Formatted Text</h1>
+            <p id="display">display</p>
+            
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
